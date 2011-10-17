@@ -1,4 +1,7 @@
 <?php
+$file = __FILE__;
+include 'highlight.php';
+
 class Book {
 	public $authors;
 	public $walk_func = 'ucwords';

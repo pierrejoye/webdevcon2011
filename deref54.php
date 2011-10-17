@@ -1,4 +1,7 @@
 <?php
+$file = __FILE__;
+include 'highlight.php';
+
 Class Book {
 	function getProperties()
 	{
